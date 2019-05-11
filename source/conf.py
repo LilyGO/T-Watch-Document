@@ -69,7 +69,7 @@ html_theme_options = {
 master_doc = 'index'
 html_logo = None
 
-html_logo = "_static/k.png"
+html_logo = "_static/K.png"
 html_show_sourcelink = True
 # html_favicon = "_static/"
 
