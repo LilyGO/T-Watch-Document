@@ -23,7 +23,7 @@ T-Watch 可编程智能手表是深圳芯元电子最新推出的一款自主开
 `进阶开发篇`_          `下载资源`_         `相关链接`_
 ==================  ==================  ==================
 
-.. |简介| image:: _static/get-started1.png
+.. |简介| image:: _static/get-started1.gif
 .. _简介: introduction/index.html
 
 .. |快速上手| image:: _static/api-reference.gif 
