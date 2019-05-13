@@ -63,14 +63,18 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_theme_options = {
-    # 'logo_only': True
+    #  'logo_only': True,
+    #  'style_nav_header_background': 'black'
+    'titles_only' :False,
+    
+    'display_version': True,
 }
 # html_theme_path = ["../.."]
 master_doc = 'index'
 html_logo = None
 
-html_logo = "_static/k.png"
+html_logo = "_static/logo2.png"
 html_show_sourcelink = True
 # html_favicon = "_static/"
-
+html_title = 'abc'
 # htmlhelp_basename = slug
