@@ -66,7 +66,7 @@ html_theme_options = {
     #  'logo_only': True,
     #  'style_nav_header_background': 'black'
     'titles_only' :False,
-    
+
     'display_version': True,
 }
 # html_theme_path = ["../.."]
