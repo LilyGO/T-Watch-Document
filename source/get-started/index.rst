@@ -1,63 +1,84 @@
-********
-快速入门
-********
+=============
+快速上手
+=============
+
+本文档旨在指导用户如何使用T-Wath
+
+.. figure:: ../../_static/get_started1.jpg
+   :scale: 100
+   :align: center
+
+恢复出厂程序
+=============
+
+设置操作环境
++++++++++++++
+* :ref:`get-stared-build`
+* :ref:`get-stared-config`
+* :ref:`get-stared-download`
+* :ref:`get-stared-use`
+
+.. _get-stared-build:
+
+1. 环境搭建
+==============
+
+安装Flash Download Tools 
++++++++++++++++++++++++++
+
+乐鑫烧录下载工具ESP Flash Download Tool: :download:`Download <https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.5_0.zip>`
+  
+
+.. figure:: ../_static/firmware2.png 
+   :scale: 100
+   :align: center
 
 
-本文档旨在指导用户搭建 UNO ESP8266 ESP32 等硬件开发的软件环境，
+安装CP2104驱动
+++++++++++++++++
 
-通过一个简单的示例展示如何使用配置Arduino-IDE，并编译、下载固件至开发板。
+* :download:`CP2104-Win10 <https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip>`
 
+下载固件
+++++++++++++++++
 
+安装固件可到 :ref:`资源下载/固件<firmware_download>` 中获取。
 
-概述
-====
+.. _get-stared-config:
 
-**Arduino** 是一家制作开源硬件和软件的公司，同时兼有项目和用户社区。
-当然，最重要的，它是一款便捷灵活、易于上手的开源电子开发平台。
+2. 下载设置
+==============
+.. figure:: ../_static/firmware3.png 
+   :scale: 100
+   :align: center
 
+``ESP Flash Tool`` 设置操作见下：
 
-Arduino电路板设计使用各种微处理器和控制器。这些电路板配有一组数字和模拟I/O引脚，可以连接各种拓展板或面包板和其他电路
-这些电路板具有串行通信接口（如I2C,SPI）,通常使用C/C++编程语言。
-除了使用传统的编译工具链之外，还提供了一个基于 `Processing <https://processing.org/>`_ 语言项目的集成开发环境
-
-
-.. note::
-
-    * Arduino包含硬件（各种型号的Arduino）和软件（Arduino IDE）。核心开发团队成员包括：马西莫·班齐（Massimo Banzi）、大卫·奎提耶斯（David Cuartielles）和大卫·梅利斯（David Mellis） 
-
-    * Massimo Banzi之前是意大利Ivrea一家高科技设计学校的老师。2005年冬天，Massimo Banzi跟David Cuartielles决定设计自己的电路板，他的学生David Mellis为电路板设计编程语言。两天以后，David Mellis就写出了代码。又过了三天，电路板就完工了。
-
-    * Arduino这个名字来自意大利伊夫雷亚的一家酒吧，该项目的一些创始人过去常常会去这家酒吧。 酒吧以伊夫雷亚的Arduin命名，他是伊夫雷亚边疆伯爵，也是1002年至1014年期间的意大利国王。
-
-特色
-========
-
-* 基于知识共享开放源代码的电路图设计。
-* 免费下载，也可依需求自己修改，但需遵照姓名标示。您必须按照作者或授权人所指定的方式，表彰其姓名。
-* 依相同方式分享，若您改变或转变著作，当散布该派生著作时，您需采用与本著作相同或类似的授权条款。
-* Arduino可使用ICSP在线烧入器，将Bootloader烧入新的IC芯片。
-* 可依据Arduino官方网站，获取硬件的设计档，加以调整电路板及组件，以匹配自己实际设计的需求。
-* 可简单地与感测器，各式各样的电子组件连接，如红外线、超音波、热敏电阻、光敏电阻、伺服马达等。
-* 支持多样的交互程序，如Adobe Flash, Max/MSP, VVVV, Pure Data, C, Processing等。
-* 使用低价格的微处理控制器（Atmel AVR）（ATMEGA 8,168,328等）。
-* USB接口，不需外接电源。另外有提供直流（DC）电源输入。
+* ``COM``：烧录设备端口选择，如只有一个设备，可直接选择。
+* ``BAUD``：下载波特率，建议921600
+* ``SPI SPEED``：40MHz
+* ``SPI MODE``：DIO
+* ``FLASH SIZE``：128Mbit
 
 
+============================= =========================================================   
+ 文件                          地址                                                   
+============================= =========================================================    
+ boot_app0.bin                    0xe000
+ bootloader_dio_80m.bin           0x1000
+ T-Watch.ino.partitions.bin       0x8000
+ T-Watch.ino.bin                  0x10000
+============================= =========================================================   
 
-准备工作
-========
 
-硬件：
+.. _get-stared-download:
 
-* 一款支持 **Arduino** 开发板
-* **USB 数据线** （USB A/Micro USB B）
-* PC（Windows、Linux 或 Mac OS）
+3. 下载固件
+==============
 
-软件：
+.. _get-stared-use:
 
-* 安装 **Arduino IDE**，该软件已经基本包含Arduino官方开发板使用的 API（软件库和源代码）；
-* 安装 **驱动**。根据不同的串口驱动硬件配置，电脑需要安装对应驱动应用，如CP2102，CH340
-* 安装 **工具链**，用于编译 ESP32，ESP8266 **应用程序**；
-* 安装 **Git**, **Python** 等工具用于搭建ESP32系列开发环境；
-* 安装 C 语言编程（**工程**）的 **文本编辑器**，例如 `Eclipse <https://www.eclipse.org/>`_。
+4. 正常使用
+==============
+
 
