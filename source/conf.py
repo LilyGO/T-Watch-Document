@@ -76,5 +76,5 @@ html_logo = None
 html_logo = "_static/logo2.png"
 html_show_sourcelink = True
 # html_favicon = "_static/"
-html_title = 'abc'
+html_title = 'T-Watch Docs'
 # htmlhelp_basename = slug

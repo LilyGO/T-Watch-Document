@@ -49,7 +49,7 @@ Arduino电路板设计使用各种微处理器和控制器。这些电路板配�
 
 硬件：
 
-* 一款支持 **Arduino开发** 开发板
+* 一款支持 **Arduino** 开发板
 * **USB 数据线** （USB A/Micro USB B）
 * PC（Windows、Linux 或 Mac OS）
 

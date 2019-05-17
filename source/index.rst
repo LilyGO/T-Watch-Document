@@ -44,16 +44,11 @@ T-Watch 可编程智能手表是深圳芯元电子最新推出的一款自主开
 .. toctree::
    :hidden:
 
-   1.简介 <introduction/index> 
-   2.快速上手 <get-started/index>
-   3.入门使用篇 <basics/index>
-   4.进阶开发篇 <advanced/index>
-   5.下载资源 <download/index>
-   6.相关链接 <related-links/index>
+   简介 <introduction/index> 
+   快速上手 <get-started/index>
+   入门使用篇 <basics/index>
+   进阶开发篇 <advanced/index>
+   下载资源 <download/index>
+   相关链接 <related-links/index> 
 
-Indices and tables
->>>>>>>>>>>>>>>>>>
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    
