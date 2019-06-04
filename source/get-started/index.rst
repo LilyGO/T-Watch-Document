@@ -75,6 +75,12 @@
 
 3. 下载固件
 ==============
+.. figure:: ../_static/flash_firmware1.gif
+   :scale: 100
+   :align: center
+
+.. important::
+    请等待界面左下角显示Finish（完成）时，再关闭软件。
 
 .. _get-stared-use:
 

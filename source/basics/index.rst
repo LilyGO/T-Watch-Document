@@ -66,14 +66,6 @@
 * :ref:`basics-git-clone`
 * :ref:`basics-setup-toolchain`
 
-.. 
-    创建您的第一个工程
-    ~~~~~~~~~~~~~~~~~~
-    * :ref:`get-started-start-project`
-    * :ref:`get-started-connect`
-    * :ref:`get-started-configure`
-    * :ref:`get-started-build-and-flash`
-    * :ref:`get-started-monitor`
 
 .. _basics-install-git:
 
