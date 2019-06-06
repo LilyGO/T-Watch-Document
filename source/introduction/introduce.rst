@@ -2,7 +2,7 @@
 T-Watch简介
 **************
 
-.. image:: ../_static/image1.jpg
+.. image:: ../_static/image1.png
 
 背景
 ********

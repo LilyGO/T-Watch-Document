@@ -18,7 +18,6 @@
     * :download:`Lora芯片:Semtech SX1276 <>`
     * :download:`FT6236U <https://www.buydisplay.com/download/ic/FT6236-FT6336-FT6436L-FT6436_Datasheet.pdf>`
 
-
 驱动下载
 ****************
 * 下载

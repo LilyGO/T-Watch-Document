@@ -2,7 +2,7 @@
 T-Watch简介
 ==============
 
-.. image:: ../_static/image1.jpg
+.. image:: ../_static/image3.jpg
 
 产品简介
 ==============
@@ -31,36 +31,81 @@ T-Watch简介
 1.技术参数
 ==============
 
-该板具有以下硬件特性:
+.. figure:: ../_static/get_started2.jpg 
+   :scale: 40
+   :align: center
 
-  - ESP-32主控：
 
-    - 处理器：Tensilica LX6双核处理器（一核处理高速连接；一核独立应用开发）
-    - 主频：高达240MHz的时钟频率
-    -	SRAM：520KB
-    - Flash：8MB
-    - Wi-Fi标准：FCC/CE/TELEC/KCC
-    - Wi-Fi协议：802.11 b/g/n/d/e/i/k/r (802.11n，速度高达150 Mbps)，A-MPDU和A-MSDU聚合，支持0.4us防护间隔
-    - 频率范围：2.4~2.5 GHz
-    - 蓝牙协议：符合蓝牙v4.2 BR/EDR和BLE标准
-    - 蓝牙音频：CVSD和SBC音频低功耗：10uA
+- **ESP-32** 主控：
 
-  - 供电方式：Type-C USB供电
-  - 工作电压：3.3V
-  - 最大工作电流:200mA
-  - T-Watch板载：
+  - CPU：Xtensa双核32位LX6微处理器，工作频率为240 MHz，最高可达600 DMIPS
+  - 超低功耗（ULP）协处理器
+  - 内存：520 KiB SRAM
+  - 无线连接：
+  - Wi-Fi：802.11 b / g / n
+  - 蓝牙：v4.2 BR / EDR和BLE
+  - 外围接口：
+  - 12位SAR ADC，最多18个通道
+  - 2×8位DAC
+  - 10×触摸传感器（电容式感应 GPIO）
+  - 4× SPI
+  - 2× I²S接口
+  - 2× I²C接口
+  - 3× UART
+  - SD / SDIO / CE-ATA / MMC / eMMC主控制器
+  - SDIO / SPI从控制器
+  - 以太网专用DMA和MAC接口IEEE 1588精密时间协议的支持
+  - CAN总线 2.0
+- 供电方式：Type-C USB/锂电池
+- 工作电压：3.3V
 
-    - 1.54寸LCD电容触摸屏:ST7789V
-    - GPS通讯模块：NEO M8N/6M
-    - 三轴加速度计:BMA423
-    - CMU电源管理：AXP202
-    - Lora模块：SX1276
+.. note::
+  
+  ESP32 由总部位于上海的中国公司乐鑫信息科技创建和开发，由台积电采用40纳米技术制造。
+  它是ESP8266微控制器的后继产品。
+
+
+开机演示视频
+--------------
+.. figure:: ../_static/gif4.gif 
+   :scale: 100
+   :align: left
+
+界面切换视频
+--------------
+.. figure:: ../_static/gif5.gif 
+   :scale: 100
+   :align: left
+
+
+- T-Watch板载：
+
+  - 1.54寸LCD电容触摸屏:ST7789V
+  - 触摸屏芯片：FT5206
+  - 三轴加速度计:BMA423
+  - PMU电源管理：AXP202
+  - RTC时钟模块：PCF8563
 
   - 拓展接口：
 
+    - 支持麦克风:MSM261S4030H0
+    - 支持SPI TF内存卡
     - 2个数字I/O：GPIO25，GPIO26 (支持ADC,DAC)
     - 支持I2C、UART、SPI通讯协议
 
+.. important::
+  
+  拓展功能为升级款以及拓展模块，基础款无下列功能
+
+- 拓展功能：
+
+  - Lora模块：SX1276
+  - GPS通讯模块：NEO M8N/6M
+  - GPRS通信模块：SIM800L
+  - 心率血氧传感器：MAX30102
+  - 电容触摸传感器：MRP121Q
+  - 六轴传感器：MPU6050
+  - 无线充电
 .. _appearance-specification:
 
 2.外观规格
