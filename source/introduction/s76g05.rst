@@ -1,5 +1,5 @@
 ==================
-T-Watch S76G
+T-Watch S7XG
 ==================
 
 .. image:: ../_static/s76g1.png
@@ -52,3 +52,8 @@ S76G
  GPIO33           TX      UART_GPS_TX 
  GPIO34           RX      UART_GPS_RX
 =============== ======  ====================================
+
+4.演示程序
+==================
+
+ - `Github源码 <https://github.com/Xinyuan-LilyGO/twatch-series-modules/blob/master/twatch_s7xg/twatch_s7xg.ino>`_

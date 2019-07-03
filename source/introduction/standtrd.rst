@@ -1,15 +1,15 @@
 ==================
-T-Watch Max30102
+T-Watch Standard
 ==================
 
 
-.. image:: ../_static/basic02.png
+.. image:: ../_static/stad1.png
 
 
 1.描述
 ==================
 
-T-Watch Baisc是一款基于ESP32的可编程手表套件，由Core PCB和Baisc底板组成。
+T-Watch Standard是一款基于ESP32的可编程手表套件，由Core PCB和Standard底板组成。
 您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch SIM800L进行编程。
 
 .. image:: ../_static/model4.jpg
@@ -24,6 +24,8 @@ T-Watch Baisc是一款基于ESP32的可编程手表套件，由Core PCB和Baisc�
 - 传感器：BMA423三轴加速度计，内置计步算法，活动识别/跟踪，高级手势识别等功能
 - 组合套件：锂电池，设计开模，以及粗线表带，并且有黑、白双色
 - 开发平台：ESP-IDF(原生SDK)，Arduino,Lua,MicroPython,Scratch
+- 支持心率、血氧侦测
+- 支持TF卡读写
 - 支持可拓展模块使用
 
 
@@ -53,4 +55,17 @@ TF卡
  GPIO14          SCLK      TF_SCLK
 =============== ======  ====================================
 
+Max30102心率血氧
++++++++++++++++++
+=============== ======  ====================================  
+ ESP32           属性     描述
+=============== ======  ====================================
+ GPIO21          SDA      Max30102_SDA
+ GPIO22          SCL      Max30102_SCL
+=============== ======  ====================================
+
+4.演示程序
+==================
+
+ - `Github源码 <https://github.com/Xinyuan-LilyGO/twatch-series-modules/tree/master/twatch_heart_rate/>`_
 

@@ -6,31 +6,22 @@ T-Watch简介
 
 产品分类
 ==============
-..  
-.. toctree::
-   :hidden:
-   介绍 <introduce>
-   MAX30102 <max04> 
-   SIM800L <sim02>
-   GPS <gps8m03>
-   Basic <basic01> 
-   Lora+GPS <s76g05>
 
 ==================  ==================  ==================
-|MAX30102|_           |SIM800L|_         |GPS|_
+|Standtrd|_           |SIM800L|_         |GPS|_
 ------------------  ------------------  ------------------
-`MAX30102`_           `SIM800L`_         `GPS`_
+`Standtrd`_           `SIM800L`_         `GPS`_
 ------------------  ------------------  ------------------
-|Basic|_              |Lora+GPS|_         |敬请关注后续|_
+|MPR121|_              |Lora+GPS|_         |敬请关注后续|_
 ------------------  ------------------  ------------------
-`Basic`_              `Lora+GPS`_         `敬请关注后续`_
+`MPR121`_              `Lora+GPS`_         `敬请关注后续`_
 ==================  ==================  ==================
 
-.. |MAX30102| image:: ../_static/max30102.png
-.. _MAX30102: ../introduction/max04.html
+.. |Standtrd| image:: ../_static/std1.png
+.. _Standtrd: ../introduction/standtrd.html
 
-.. |Basic| image:: ../_static/basic01.png
-.. _Basic: ../introduction/basic01.html
+.. |MPR121| image:: ../_static/basic01.png
+.. _MPR121: ../introduction/mpr4.html
 
 .. |SIM800L| image:: ../_static/SIM02.png
 .. _SIM800L: ../introduction/sim02.html

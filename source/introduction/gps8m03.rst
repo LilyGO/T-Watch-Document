@@ -60,3 +60,10 @@ NEO GPS M8N
  GPIO33           TX      UART_GPS_TX 
  GPIO34           RX      UART_GPS_RX
 =============== ======  ====================================
+
+4.演示程序
+==================
+
+ - `Github源码 <https://github.com/Xinyuan-LilyGO/TTGO-T-Watch>`_
+
+

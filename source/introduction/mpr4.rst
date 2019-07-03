@@ -9,7 +9,7 @@ T-Watch MPR121
 1.描述
 ==================
 
-T-Watch Baisc是一款基于ESP32的可编程手表套件，由Core PCB和Baisc底板组成。
+T-Watch MPR121是一款基于ESP32的可编程手表套件，由Core PCB和MPR121底板组成。
 您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch SIM800L进行编程。
 
 .. image:: ../_static/model4.jpg
@@ -53,5 +53,10 @@ TF卡
  GPIO02          MISO      TF_MISO
  GPIO14          SCLK      TF_SCLK
 =============== ======  ====================================
+
+4.演示程序
+==================
+
+ - `Github源码 <https://github.com/Xinyuan-LilyGO/twatch-series-modules/tree/master/twach-mpr121>`_
 
 
