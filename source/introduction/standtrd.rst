@@ -3,7 +3,7 @@ T-Watch Standard
 ==================
 
 
-.. image:: ../_static/stad1.png
+.. image:: ../_static/std1.png
 
 
 1.描述
