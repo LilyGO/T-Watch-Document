@@ -4,15 +4,45 @@ T-Watch简介
 
 .. image:: ../_static/image3.jpg
 
-产品简介
+产品分类
 ==============
-
+..  
 .. toctree::
-   :maxdepth: 1
-
+   :hidden:
    介绍 <introduce>
+   MAX30102 <max04> 
+   SIM800L <sim02>
+   GPS <gps8m03>
+   Basic <basic01> 
+   Lora+GPS <s76g05>
 
-============== 
+==================  ==================  ==================
+|MAX30102|_           |SIM800L|_         |GPS|_
+------------------  ------------------  ------------------
+`MAX30102`_           `SIM800L`_         `GPS`_
+------------------  ------------------  ------------------
+|Basic|_              |Lora+GPS|_         |敬请关注后续|_
+------------------  ------------------  ------------------
+`Basic`_              `Lora+GPS`_         `敬请关注后续`_
+==================  ==================  ==================
+
+.. |MAX30102| image:: ../_static/max30102.png
+.. _MAX30102: ../introduction/max04.html
+
+.. |Basic| image:: ../_static/basic01.png
+.. _Basic: ../introduction/basic01.html
+
+.. |SIM800L| image:: ../_static/SIM02.png
+.. _SIM800L: ../introduction/sim02.html
+
+.. |GPS| image:: ../_static/GPS3.png
+.. _GPS: ../introduction/gps8m03.html
+
+.. |Lora+GPS| image:: ../_static/s76g05.png
+.. _Lora+GPS: ../introduction/s76g05.html
+
+.. |敬请关注后续| image:: ../_static/tobe06.png
+.. _敬请关注后续: ../introduction/tobe06.html
 
 硬件概述
 ==============
@@ -44,18 +74,6 @@ T-Watch简介
   - 无线连接：
   - Wi-Fi：802.11 b / g / n
   - 蓝牙：v4.2 BR / EDR和BLE
-  - 外围接口：
-  - 12位SAR ADC，最多18个通道
-  - 2×8位DAC
-  - 10×触摸传感器（电容式感应 GPIO）
-  - 4× SPI
-  - 2× I²S接口
-  - 2× I²C接口
-  - 3× UART
-  - SD / SDIO / CE-ATA / MMC / eMMC主控制器
-  - SDIO / SPI从控制器
-  - 以太网专用DMA和MAC接口IEEE 1588精密时间协议的支持
-  - CAN总线 2.0
 - 供电方式：Type-C USB/锂电池
 - 工作电压：3.3V
 
