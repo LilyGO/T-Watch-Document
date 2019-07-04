@@ -9,7 +9,7 @@ T-Watch S7XG
 ==================
 
 T-Watch S76G是一款基于ESP32的可编程手表套件，由Core PCB和S76G底板组成。
-您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch SIM800L进行编程。
+您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch S7XG进行编程。
 S76G同时兼有Lora，GPS功能
 
 .. image:: ../_static/model4.jpg

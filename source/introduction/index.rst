@@ -90,31 +90,19 @@ T-Watch简介
 - T-Watch板载：
 
   - 1.54寸LCD电容触摸屏:ST7789V
-  - 触摸屏芯片：FT5206
+  - 触摸屏芯片：FT6236U
   - 三轴加速度计:BMA423
   - PMU电源管理：AXP202
   - RTC时钟模块：PCF8563
 
   - 拓展接口：
 
-    - 支持麦克风:MSM261S4030H0
+    - 支持麦克风
     - 支持SPI TF内存卡
     - 2个数字I/O：GPIO25，GPIO26 (支持ADC,DAC)
     - 支持I2C、UART、SPI通讯协议
 
-.. important::
-  
-  拓展功能为升级款以及拓展模块，基础款无下列功能
 
-- 拓展功能：
-
-  - Lora模块：SX1276
-  - GPS通讯模块：NEO M8N/6M
-  - GPRS通信模块：SIM800L
-  - 心率血氧传感器：MAX30102
-  - 电容触摸传感器：MRP121Q
-  - 六轴传感器：MPU6050
-  - 无线充电
 .. _appearance-specification:
 
 2.外观规格

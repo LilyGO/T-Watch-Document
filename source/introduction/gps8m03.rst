@@ -9,7 +9,7 @@ T-Watch GPS
 ==================
 
 T-Watch GPS是一款基于ESP32的可编程手表套件，由Core PCB和GPS-M8N底板组成。
-您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch SIM800L进行编程。
+您甚至可以通过Arduino,ESP-IDF或MicroPython对T-Watch GPS进行编程。
 
 .. image:: ../_static/model4.jpg
 
