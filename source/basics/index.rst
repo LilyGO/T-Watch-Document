@@ -17,7 +17,7 @@
 
 .. important:: 强烈建议安装桌面版IDE。当然，有机会你也可以尝试使用在线版IDE
 
-.. image:: ../../_static/w_install1.png
+.. image:: ../_static/w_install1.png
 
 ..
  .. image:: ../../_static/das.gif
@@ -33,6 +33,9 @@
     2.1 Windows <windows-setup>
     2.2 Linux <linux-setup> 
     2.3 MacOS <macos-setup>
+
+=============
+
 +-------------------+-------------------+-------------------+
 | |windows-logo|    | |linux-logo|      | |macos-logo|      |
 +-------------------+-------------------+-------------------+
@@ -73,26 +76,26 @@
 =======================
 
 下载步骤：
-~~~~~~~~~
+~~~~~~~~~~~~~
 
 从 `Git官网 <https://git-scm.com/downloads>`_ 下载安装包Git.exe
 
-.. image:: ../../_static/git_install.png 
+.. image:: ../_static/git_install.png 
 
 操作步骤：
-~~~~~~~~~
+~~~~~~~~~~~~~
 
 下载完成后，双击打开，
 一直点击下一步，直到完成。
 
-.. figure:: ../../_static/git.gif 
+.. figure:: ../_static/git.gif 
    :scale: 100
    :align: center
 
    安装过程
 
 检验步骤：
-~~~~~~~~~
+~~~~~~~~~~~~~
 安装完毕后，点击一下鼠标右键。就会看到 **Git Bash Here** ，
 说明已经安装成功了，
 我们稍后要用到这个软件，
@@ -102,7 +105,7 @@
 3.2 搭建前配置
 =======================
 
-.. figure:: ../../_static/git_clone1.png 
+.. figure:: ../_static/git_clone1.png 
    :scale: 100
    :align: center
 
@@ -112,13 +115,13 @@
     点击图标，然后右键选择 ``打开文件夹所在的位置`` 
 
 操作步骤：
-~~~~~~~~~
+~~~~~~~~~~~~~
 
 * 选择 **hardware** -> 
 * 鼠标 **右键** -> 
 * 点击 **Git Bash Here**
 
-.. figure:: ../../_static/git_clone2.gif 
+.. figure:: ../_static/git_clone2.gif 
    :scale: 100
    :align: center
 
@@ -154,9 +157,10 @@
     - ``espressif``：乐鑫英文名字，ESP32、ESP8266等设备都设定在此文件夹下
     - ``cd``：change directory,程序功能->改变当前路径
 
-    bash是一种shell，而 ``mkdir`` ``cd`` 是bash内置的使用命令    
+    bash是一种shell，而 ``mkdir`` ``cd`` 是bash内置的使用命令 
+
 克隆远程仓库：
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
@@ -169,10 +173,11 @@
     - ``esp32``：在链接后方写明 ``esp32`` ,可直接更改所克隆仓库文件夹名称,默认为Arduino-esp32
 
     这里须设为esp32,是因为arduino开启时会默认读取 ``arduino/hardware/espressif/esp32``
-演示视频
-~~~~~~~~~~~~
 
-.. figure:: ../../_static/git_clone3.gif 
+演示视频
+~~~~~~~~~~~~~
+
+.. figure:: ../_static/git_clone3.gif 
    :scale: 100
    :align: center
 
@@ -196,6 +201,6 @@
 
 演示视频
 ~~~~~~~~~~~~
-.. figure:: ../../_static/git_clone4.gif 
+.. figure:: ../_static/git_clone4.gif 
    :scale: 100
    :align: center

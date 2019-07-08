@@ -5,7 +5,7 @@ Windows平台Arduino的安装步骤
 1. 下载
 ============
 
-.. image:: ../../_static/w_install2.png 
+.. image:: ../_static/w_install2.png 
 
 从 `下载页面 <https://www.arduino.cc/en/Main/Software?setlang=cn>`_ 获取最新版本。您可以选择安装程序（.exe）和Zip包。
 
@@ -28,19 +28,19 @@ Arduino-IDE下载
 2. 安装 
 ============
 
-.. figure:: ../../_static/DRV_Capture1.png 
+.. figure:: ../_static/DRV_Capture1.png 
    :scale: 100
    :align: center
 
    选择要安装的组件
 
-.. figure:: ../../_static/DRV_Capture2.png 
+.. figure:: ../_static/DRV_Capture2.png 
    :scale: 100
    :align: center
 
    选择安装目录（建议不要安装在系统盘--C盘中）
 
-.. figure:: ../../_static/DRV_Capture3.png 
+.. figure:: ../_static/DRV_Capture3.png 
    :scale: 100
    :align: center
 
@@ -48,7 +48,7 @@ Arduino-IDE下载
 
 3. 配置
 ============
-.. figure:: ../../_static/das2.gif 
+.. figure:: ../_static/das2.gif 
    :scale: 100
    :align: left
 
@@ -71,7 +71,7 @@ Arduino-IDE下载
 
 打开LED Blink 样例代码：文件>示例>01.Basics > Blink。
 
-.. figure:: ../../_static/blink.gif
+.. figure:: ../_static/blink.gif
    :scale: 100
    :align: left
 

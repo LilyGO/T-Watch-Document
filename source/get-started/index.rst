@@ -4,7 +4,7 @@
 
 本文档旨在指导用户如何使用T-Wath
 
-.. figure:: ../../_static/get_started1.jpg
+.. figure:: ../_static/get_started1.jpg
    :scale: 100
    :align: center
 

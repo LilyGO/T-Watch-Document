@@ -20,6 +20,7 @@
 
 驱动下载
 ****************
+
 * 下载
 
     * :download:`CP2104-Win10 <https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip>`
@@ -28,6 +29,7 @@
     * :download:`CP2104-Mac <https://www.silabs.com/documents/login/software/Linux_3.x.x_4.x.x_VCP_Driver_Source.zip>`  
 * 安装
 
-.. _firmware_download:    
+.. _firmware_download:  
+
 固件下载
 ***************

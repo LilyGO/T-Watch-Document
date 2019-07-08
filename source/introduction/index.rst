@@ -34,7 +34,51 @@ T-Watch简介
 
 .. |敬请关注后续| image:: ../_static/tobe06.png
 .. _敬请关注后续: ../introduction/tobe06.html
-   
+
+配套模块
+==============
+
+==================  ==================  ==================
+|按键模块|_          |蜂鸣器模块|_         |WS2812_RGB|_
+------------------  ------------------  ------------------
+`按键模块`_          `蜂鸣器模块`_         `WS2812_RGB`_
+------------------  ------------------  ------------------
+|DHT11模块|_        |Pir红外传感器|_      |光敏模块|_
+------------------  ------------------  ------------------
+`DHT11模块`_        `Pir红外传感器`_      `光敏模块`_
+------------------  ------------------  ------------------
+|红外发送模块|_       |红外接收模块|_       |敬请关注后续|_
+------------------  ------------------  ------------------
+`红外发送模块`_       `红外接收模块`_       `敬请关注后续`_
+==================  ==================  ==================
+
+.. |按键模块| image:: ../_static/button1.png
+.. _按键模块: ../introduction/button1.html
+
+.. |蜂鸣器模块| image:: ../_static/buzzer2.png
+.. _蜂鸣器模块: ../introduction/buzzer2.html
+
+.. |DHT11模块| image:: ../_static/dht3.png
+.. _DHT11模块: ../introduction/dht3.html
+
+.. |WS2812_RGB| image:: ../_static/rgb4.png
+.. _WS2812_RGB: ../introduction/rgb4.html
+
+.. |Pir红外传感器| image:: ../_static/pir5.png
+.. _Pir红外传感器: ../introduction/pir5.html
+
+.. |光敏模块| image:: ../_static/photo6.png
+.. _光敏模块: ../introduction/photo6.html
+
+.. |红外发送模块| image:: ../_static/send7.png
+.. _红外发送模块: ../introduction/send7.html
+
+.. |红外接收模块| image:: ../_static/receive8.png
+.. _红外接收模块: ../introduction/receive8.html
+
+.. |敬请关注后续| image:: ../_static/tobe06.png
+.. _敬请关注后续: ../introduction/tobe06.html
+
 硬件概述
 ==============
 
@@ -51,6 +95,15 @@ T-Watch简介
 
 1.技术参数
 ==============
+
+- T-Watch板载：
+
+  - 主芯片：ESP32
+  - 1.54寸LCD电容触摸屏:ST7789V
+  - 触摸屏芯片：FT6236U
+  - 三轴加速度计:BMA423
+  - PMU电源管理：AXP202
+  - RTC时钟模块：PCF8563
 
 .. figure:: ../_static/get_started2.jpg 
    :scale: 40
@@ -87,20 +140,6 @@ T-Watch简介
    :align: left
 
 
-- T-Watch板载：
-
-  - 1.54寸LCD电容触摸屏:ST7789V
-  - 触摸屏芯片：FT6236U
-  - 三轴加速度计:BMA423
-  - PMU电源管理：AXP202
-  - RTC时钟模块：PCF8563
-
-  - 拓展接口：
-
-    - 支持麦克风
-    - 支持SPI TF内存卡
-    - 2个数字I/O：GPIO25，GPIO26 (支持ADC,DAC)
-    - 支持I2C、UART、SPI通讯协议
 
 
 .. _appearance-specification:
