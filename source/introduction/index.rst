@@ -12,9 +12,9 @@ T-Watch简介
 ------------------  ------------------  ---------------------
 `Standard`_           `SIM800L`_         `GPS`_
 ------------------  ------------------  ---------------------
-|MPR121|_              |Lora+GPS|_      |Standtrd+Max30102|_
+|MPR121|_              |Lora+GPS|_      |Standard+Max30102|_
 ------------------  ------------------  ---------------------
-`MPR121`_              `Lora+GPS`_      `Standtrd+Max30102`_
+`MPR121`_              `Lora+GPS`_      `Standard+Max30102`_
 ==================  ==================  =====================
 
 .. |Standard| image:: ../_static/std1.png
@@ -32,8 +32,8 @@ T-Watch简介
 .. |Lora+GPS| image:: ../_static/s76g05.png
 .. _Lora+GPS: ../introduction/s76g05.html
 
-.. |Standtrd+Max30102| image:: ../_static/std11.png
-.. _Standtrd+Max30102: ../introduction/sg06.html
+.. |Standard+Max30102| image:: ../_static/std11.png
+.. _Standard+Max30102: ../introduction/sg06.html
 
 配套模块
 ==============
@@ -43,9 +43,9 @@ T-Watch简介
 ------------------  ------------------  ------------------
 `按键模块`_          `蜂鸣器模块`_         `WS2812_RGB`_
 ------------------  ------------------  ------------------
-|DHT11模块|_        |Pir红外传感器|_      |光敏模块|_
+|DHT12模块|_        |Pir红外传感器|_      |光敏模块|_
 ------------------  ------------------  ------------------
-`DHT11模块`_        `Pir红外传感器`_      `光敏模块`_
+`DHT12模块`_        `Pir红外传感器`_      `光敏模块`_
 ------------------  ------------------  ------------------
 |红外发送模块|_       |红外接收模块|_       |敬请关注后续|_
 ------------------  ------------------  ------------------
@@ -58,8 +58,8 @@ T-Watch简介
 .. |蜂鸣器模块| image:: ../_static/buzzer2.png
 .. _蜂鸣器模块: ../introduction/buzzer2.html
 
-.. |DHT11模块| image:: ../_static/dht3.png
-.. _DHT11模块: ../introduction/dht3.html
+.. |DHT12模块| image:: ../_static/dht3.png
+.. _DHT12模块: ../introduction/dht3.html
 
 .. |WS2812_RGB| image:: ../_static/rgb4.png
 .. _WS2812_RGB: ../introduction/rgb4.html
