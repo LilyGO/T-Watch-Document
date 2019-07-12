@@ -8,19 +8,19 @@ T-Watch简介
 ==============
 
 ==================  ==================  =====================
-|Standtrd|_           |SIM800L|_         |GPS|_
+|Standard|_           |SIM800L|_         |GPS|_
 ------------------  ------------------  ---------------------
-`Standtrd`_           `SIM800L`_         `GPS`_
+`Standard`_           `SIM800L`_         `GPS`_
 ------------------  ------------------  ---------------------
 |MPR121|_              |Lora+GPS|_      |Standtrd+Max30102|_
 ------------------  ------------------  ---------------------
 `MPR121`_              `Lora+GPS`_      `Standtrd+Max30102`_
 ==================  ==================  =====================
 
-.. |Standtrd| image:: ../_static/std1.png
-.. _Standtrd: ../introduction/standtrd.html
+.. |Standard| image:: ../_static/std1.png
+.. _Standard: ../introduction/standtrd.html
 
-.. |MPR121| image:: ../_static/basic01.png
+.. |MPR121| image:: ../_static/basic011.png
 .. _MPR121: ../introduction/mpr4.html
 
 .. |SIM800L| image:: ../_static/SIM02.png
