@@ -2,7 +2,7 @@
 快速上手
 =============
 
-本文档旨在指导用户如何使用T-Wath
+本文档旨在指导用户如何使用T-Watch
 
 .. figure:: ../_static/get_started1.jpg
    :scale: 18
