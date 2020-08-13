@@ -11,7 +11,7 @@
 * 数据手册
 
     * :download:`USB转串口芯片:CP2104 <https://www.silabs.com/documents/public/data-sheets/cp2104.pdf>`
-    * :download:`IPS电容触摸屏:ST7735V <https://www.newhavendisplay.com/appnotes/datasheets/LCDs/ST7789V.pdf>`
+    * :download:`IPS电容触摸屏:ST7789V <https://www.newhavendisplay.com/appnotes/datasheets/LCDs/ST7789V.pdf>`
     * :download:`CMU电源管理：AXP202 <http://igorx.irk.ru/datasheet/N9z7wouuCuHQm917GdSc.pdf>`
     * :download:`BMA423 <https://www.mouser.com/datasheet/2/783/BST-BMA423-DS000-1509600.pdf>`
     * :download:`GPS <https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf>`
